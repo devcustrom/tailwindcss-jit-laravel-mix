@@ -1,0 +1,36 @@
+{
+    "scripts": {
+        "mix": "mix",
+        "dev": "mix & cross-env NODE_ENV=development npx tailwindcss -i src/css/style.css -o dist/css/style.css & postcss --use postcss-gap-properties -o dist/css/style.css dist/css/style.css",
+        "watch": "mix & concurrently --kill-others \"mix watch\" \"npm run tailwatch\"",
+        "tailwatch": "cross-env NODE_ENV=development npx tailwindcss -i src/css/style.css -o dist/css/style.css --watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.4.1",
+        "autoprefixer": "^10.2.6",
+        "concurrently": "^6.2.0",
+        "cross-env": "^7.0.3",
+        "laravel-mix": "^6.0.25",
+        "postcss": "^8.3.5",
+        "postcss-cli": "^8.3.1",
+        "postcss-gap-properties": "^2.0.0",
+        "postcss-import": "^14.0.2",
+        "tailwindcss": "^2.2.4"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 2 chrome version",
+            "last 2 firefox version",
+            "last 2 safari version",
+            "last 2 ie version"
+        ]
+    }
+}
