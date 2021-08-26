@@ -1,11 +1,8 @@
 module.exports = {
   mode: 'jit',
   purge: [
-    '*/*/*.js',
-    '*/*.htm',
-    '*/*/*.htm',
-    '*/*/*/*.htm',
-    '*/*/*/*/*.htm',
+    'src/js/*.js',
+    './index.html'
   ],
   darkMode: 'media',
   variants: {

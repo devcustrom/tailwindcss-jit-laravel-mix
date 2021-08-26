@@ -1,7 +1,8 @@
 module.exports = {
   plugins: [
-      require('postcss-import'),
-      require('autoprefixer'),
-      require('postcss-gap-properties'),
+    require('postcss-import'),
+    require('tailwindcss'),
+    require('autoprefixer'),
+    require('postcss-gap')({ method: 'duplicate' })
   ]
 }
