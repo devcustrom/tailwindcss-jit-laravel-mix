@@ -1,0 +1,10 @@
+.header {
+	.nav {
+		@apply mr-2;
+		@apply sm:mr-5;
+
+		@screen sm {
+			@apply mr-5;
+		}
+	}
+}
