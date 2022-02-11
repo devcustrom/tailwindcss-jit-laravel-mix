@@ -6,16 +6,18 @@
         "prod": "mix --production"
     },
     "devDependencies": {
-        "@tailwindcss/typography": "^0.5.0",
-        "autoprefixer": "^10.2.6",
-        "concurrently": "^6.2.0",
-        "cross-env": "^7.0.3",
-        "laravel-mix": "^6.0.25",
-        "postcss": "^8.3.5",
+        "@savvywombat/tailwindcss-grid-areas": "^2.0.1",
+        "@tailwindcss/typography": "^0.5.1",
+        "autoprefixer": "^10.4.2",
+        "laravel-mix": "^6.0.41",
+        "postcss": "^8.4.6",
         "postcss-cli": "^8.3.1",
         "postcss-gap": "^1.0.0",
         "postcss-import": "^14.0.2",
-        "tailwindcss": "^3.0.5"
+        "postcss-nested": "^5.0.6",
+        "prettier": "^2.5.1",
+        "prettier-plugin-tailwindcss": "^0.1.7",
+        "tailwindcss": "^3.0.21"
     },
     "browserslist": {
         "production": [
@@ -31,6 +33,7 @@
         ]
     },
     "dependencies": {
-        "postcss-nested": "^5.0.6"
+        "lozad": "^1.16.0",
+        "swiper": "^8.0.5"
     }
 }
