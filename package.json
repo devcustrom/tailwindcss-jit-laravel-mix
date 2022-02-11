@@ -1,39 +1,39 @@
 {
-    "scripts": {
-        "dev": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "prod": "mix --production"
-    },
-    "devDependencies": {
-        "@savvywombat/tailwindcss-grid-areas": "^2.0.1",
-        "@tailwindcss/typography": "^0.5.1",
-        "autoprefixer": "^10.4.2",
-        "laravel-mix": "^6.0.41",
-        "postcss": "^8.4.6",
-        "postcss-cli": "^8.3.1",
-        "postcss-gap": "^1.0.0",
-        "postcss-import": "^14.0.2",
-        "postcss-nested": "^5.0.6",
-        "prettier": "^2.5.1",
-        "prettier-plugin-tailwindcss": "^0.1.7",
-        "tailwindcss": "^3.0.21"
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 2 chrome version",
-            "last 2 firefox version",
-            "last 2 safari version",
-            "last 2 ie version"
-        ]
-    },
-    "dependencies": {
-        "lozad": "^1.16.0",
-        "swiper": "^8.0.5"
-    }
+	"scripts": {
+		"dev": "mix",
+		"watch": "mix watch",
+		"watch-poll": "mix watch -- --watch-options-poll=1000",
+		"prod": "mix --production"
+	},
+	"devDependencies": {
+		"@savvywombat/tailwindcss-grid-areas": "^2.0.1",
+		"@tailwindcss/typography": "^0.5.1",
+		"autoprefixer": "^10.4.2",
+		"laravel-mix": "^6.0.41",
+		"postcss": "^8.4.6",
+		"postcss-cli": "^8.3.1",
+		"postcss-gap": "^1.0.0",
+		"postcss-import": "^14.0.2",
+		"postcss-nested": "^5.0.6",
+		"prettier": "^2.5.1",
+		"prettier-plugin-tailwindcss": "^0.1.7",
+		"tailwindcss": "^3.0.21"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 2 chrome version",
+			"last 2 firefox version",
+			"last 2 safari version",
+			"last 2 ie version"
+		]
+	},
+	"dependencies": {
+		"lozad": "^1.16.0",
+		"swiper": "^8.0.5"
+	}
 }
